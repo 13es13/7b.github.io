@@ -241,8 +241,8 @@
 
   // Admin login trigger
   function enableAdminTrigger() {
-    const entered = prompt("Wpisz kod:");
-    if (entered && entered.toLowerCase() === 'admin') {
+    const entered = prompt("13!!!!!!!:");
+    if (entered && entered.toLowerCase() === 'function') {
       document.getElementById('loginModal').style.display = 'flex';
     }
   }
@@ -254,7 +254,7 @@
   function adminLogin() {
     const u = document.getElementById('loginUser').value;
     const p = document.getElementById('loginPass').value;
-    if (u === 'admin' && p === 'admin123') {
+    if (u === 'const' && p === 'loginPass') {
       isAdmin = true;
       closeLogin();
       renderCalendar();
@@ -314,3 +314,4 @@
 </script>
 </body>
 </html>
+
